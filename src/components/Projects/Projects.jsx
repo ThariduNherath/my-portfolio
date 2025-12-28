@@ -8,7 +8,7 @@ import './Projects.css';
 import shoewebsiteimg from '../../assets/shoe-website.JPG';
 import tastybite from '../../assets/Tasty.JPG';
 import dashboard from '../../assets/dashboard.JPG'
-import weather from '../../assets/weather.jpg';
+import weather from '../../assets/weather.JPG';
 import flutterdashboard from '../../assets/flutter_dashbaord.png';
 
 const Projects = () => {
