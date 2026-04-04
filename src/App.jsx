@@ -156,49 +156,7 @@ const ModernLoadingScreen = () => {
           </motion.span>
         </div>
 
-        {/* Loading Animation */}
-        <div className="loading-animation">
-          <motion.div
-            className="loader-circle"
-            animate={{
-              rotate: 360,
-              scale: [1, 1.2, 1],
-            }}
-            transition={{
-              rotate: {
-                duration: 2,
-                repeat: Infinity,
-                ease: "linear",
-              },
-              scale: {
-                duration: 1.5,
-                repeat: Infinity,
-                ease: "easeInOut",
-              },
-            }}
-          >
-            <div className="inner-circle" />
-            <div className="outer-circle" />
-            {[...Array(8)].map((_, i) => (
-              <motion.div
-                key={i}
-                className="particle"
-                style={{
-                  transform: `rotate(${i * 45}deg)`,
-                }}
-                animate={{
-                  y: [0, -20, 0],
-                  opacity: [0.5, 1, 0.5],
-                }}
-                transition={{
-                  duration: 1,
-                  delay: i * 0.1,
-                  repeat: Infinity,
-                }}
-              />
-            ))}
-          </motion.div>
-        </div>
+       
 
         {/* Status Indicators */}
         <div className="status-indicators">

@@ -27,7 +27,7 @@ const Contact = () => {
 
     // Prepare payload for Web3Forms
     const payload = {
-      access_key: "", // Replace with your key or Web3Forms generated key
+     access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,// Replace with your key or Web3Forms generated key
       name: formData.name,
       email: formData.email,
       subject: formData.subject,

@@ -10,6 +10,8 @@ import tastybite from '../../assets/Tasty.JPG';
 import dashboard from '../../assets/dashboard.JPG'
 import weather from '../../assets/weather.JPG';
 import flutterdashboard from '../../assets/flutter_dashbaord.png';
+import flutterEcommerceImg from '../../assets/e_commerce_flutter.png';
+import inventorySystemImg from '../../assets/inventory.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -123,6 +125,54 @@ const Projects = () => {
       ],
       status: 'Completed',
     },
+    {
+  id: 6,
+  title: 'Flutter E-Commerce Mobile App',
+  description: 'Modern Flutter based e-commerce mobile application with clean architecture',
+  fullDescription:
+    'A fully functional and responsive e-commerce mobile application developed using Flutter and Dart. The app includes product listing, product detail view, cart management, authentication screens, category filtering, wishlist functionality, and a modern UI design with dark/light theme support. Built with scalable architecture and reusable widgets, ensuring smooth performance and clean code structure.',
+  image: flutterEcommerceImg, // add your project image variable here
+  technologies: ['Flutter', 'Dart', 'GetX', 'Material UI', 'Responsive Design'],
+  category: 'frontend',
+  liveUrl: '#',
+  githubUrl: '#',
+  features: [
+    'User Authentication (Sign In / Sign Up)',
+    'Product Listing with Grid View',
+    'Product Detail Screen with Image & Description',
+    'Add to Cart & Wishlist Functionality',
+    'Category Filtering & Bottom Sheet Filters',
+    'Dark & Light Theme Support',
+    'Custom Reusable Widgets',
+    'Modern and Clean UI Design',
+    'Responsive Layout for All Screen Sizes',
+    'Smooth Navigation using GetX'
+  ],
+  status: 'Completed',
+},{
+  id: 8,
+  title: 'Inventory Management System',
+  description: 'Inventory tracking system with user isolation, analytics, and stock monitoring',
+  fullDescription:
+    'A modern inventory management system built with Next.js, React, and TypeScript, featuring multi-tenant user isolation, secure authentication, product CRUD operations, and real-time analytics dashboards. The system visualizes inventory trends with Recharts, monitors stock levels with threshold-based indicators, and provides a responsive, user-friendly interface. Built with Prisma ORM and PostgreSQL (Neon) for high performance and scalability.',
+  image: inventorySystemImg, // add your project image variable here
+  technologies: ['Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Recharts', 'Stack Auth'],
+  category: 'fullstack',
+  liveUrl: '#',
+  githubUrl: '#',
+  features: [
+    'User Authentication with Stack Auth and protected routes',
+    'Product Management with full CRUD, search, and pagination',
+    'Analytics Dashboard with key metrics, 30-day trends, and progress indicators',
+    'Stock Monitoring with In Stock / Low Stock / Out of Stock visual indicators',
+    'Responsive area charts for inventory trends',
+    'User data isolation for multi-tenant support',
+    'Server-side authentication validation and cache revalidation',
+    'Optimized database queries with indexing for performance'
+  ],
+  status: 'Completed',
+}
+
   ];
 
   const filters = [
