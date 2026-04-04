@@ -190,7 +190,7 @@ const Contact = () => {
 
             <motion.div className="download-cv" variants={itemVariants}>
               <motion.a
-                href="public\Tharidu Herath.pdf"
+                href="public\Tharidu_Herath.pdf"
                 download="Tharidu Herath.pdf"
                 className="btn btn-secondary"
                 whileHover={{ scale: 1.05 }}
