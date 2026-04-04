@@ -91,7 +91,7 @@ const Hero = ({ setActiveSection }) => {
               </motion.button>
               <motion.a
                 className="btn btn-secondary"
-                href="public\Tharidu Herath.pdf"
+                href="public\Tharidu_Herath.pdf"
                 download="Tharidu Herath.pdf"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
