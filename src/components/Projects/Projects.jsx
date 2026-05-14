@@ -28,7 +28,7 @@ const Projects = () => {
       technologies: ['React', 'Firebase', 'EmailJS', 'Node.js', 'CSS3'],
       category: 'fullstack',
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ThariduNherath/Nike-shoe-website-',
       features: [
         'Firebase Authentication (Login & Sign-Up)',
         'Email Notifications via EmailJS',
@@ -48,8 +48,8 @@ const Projects = () => {
       image: tastybite,
       technologies: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
       category: 'frontend',
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://tasty-bites-tharidu-heraths-projects.vercel.app/',
+      githubUrl: 'https://github.com/ThariduNherath/tasty-bites',
       features: [
         
     'Responsive and Interactive User Interface',
@@ -70,7 +70,7 @@ const Projects = () => {
       technologies: ['React', 'Chart.js', 'API Integration', 'PWA'],
       category: 'frontend',
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ThariduNherath/weather-dashboard',
       features: [
         '7-Day Weather Forecast',
         'Interactive Data Visualization',
@@ -113,7 +113,7 @@ const Projects = () => {
       technologies: ['Flutter', 'Dart', 'fl_chart', 'Provider'],
       category: 'frontend',
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ThariduNherath/fitness-tracker-ui',
       features: [
          'Interactive Line & Bar Charts',
     'Activity Summary Widgets',
@@ -127,7 +127,7 @@ const Projects = () => {
     },
     {
   id: 6,
-  title: 'Flutter E-Commerce Mobile App',
+  title: 'Flutter E Commerce Mobile App',
   description: 'Modern Flutter based e-commerce mobile application with clean architecture',
   fullDescription:
     'A fully functional and responsive e-commerce mobile application developed using Flutter and Dart. The app includes product listing, product detail view, cart management, authentication screens, category filtering, wishlist functionality, and a modern UI design with dark/light theme support. Built with scalable architecture and reusable widgets, ensuring smooth performance and clean code structure.',
@@ -135,7 +135,7 @@ const Projects = () => {
   technologies: ['Flutter', 'Dart', 'GetX', 'Material UI', 'Responsive Design'],
   category: 'frontend',
   liveUrl: '#',
-  githubUrl: '#',
+  githubUrl: 'https://github.com/ThariduNherath/e_commerce_flutter',
   features: [
     'User Authentication (Sign In / Sign Up)',
     'Product Listing with Grid View',
@@ -158,8 +158,8 @@ const Projects = () => {
   image: inventorySystemImg, // add your project image variable here
   technologies: ['Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Recharts', 'Stack Auth'],
   category: 'fullstack',
-  liveUrl: '#',
-  githubUrl: '#',
+  liveUrl: 'https://inventory-dashboard-mu-ten.vercel.app',
+  githubUrl: 'https://github.com/ThariduNherath/inventory-dashboard',
   features: [
     'User Authentication with Stack Auth and protected routes',
     'Product Management with full CRUD, search, and pagination',
