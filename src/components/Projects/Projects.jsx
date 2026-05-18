@@ -12,6 +12,7 @@ import weather from '../../assets/weather.JPG';
 import flutterdashboard from '../../assets/flutter_dashbaord.png';
 import flutterEcommerceImg from '../../assets/e_commerce_flutter.png';
 import inventorySystemImg from '../../assets/inventory.png';
+import serviceBoardImg from '../../assets/Service Board.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -69,7 +70,7 @@ const Projects = () => {
       image: weather,
       technologies: ['React', 'Chart.js', 'API Integration', 'PWA'],
       category: 'frontend',
-      liveUrl: '#',
+      liveUrl: 'https://weather-realtime-dashboard.vercel.app/',
       githubUrl: 'https://github.com/ThariduNherath/weather-dashboard',
       features: [
         '7-Day Weather Forecast',
@@ -169,6 +170,31 @@ const Projects = () => {
     'User data isolation for multi-tenant support',
     'Server-side authentication validation and cache revalidation',
     'Optimized database queries with indexing for performance'
+  ],
+  status: 'Completed',
+},
+{
+  id: 9,
+  title: 'ServiceBoard — Mini Service Request Board',
+  description: 'Full-stack service request management app where homeowners post jobs and tradespeople manage them',
+  fullDescription:
+    'A full-stack Mini Service Request Board built with Next.js (App Router), Node.js, Express, and MongoDB. Homeowners can post service requests (plumbing, electrical, painting, joinery) and tradespeople can browse open requests, view details, and update status. Features a modern dark UI with amber accents, category filtering, keyword search via MongoDB text index, and full CRUD operations via a RESTful API. Deployed frontend to Vercel and backend to Railway.',
+  image: serviceBoardImg,
+  technologies: ['Next.js', 'Node.js', 'Express', 'MongoDB', 'Mongoose', 'Tailwind CSS'],
+  category: 'fullstack',
+  liveUrl: 'https://service-board-next.vercel.app',
+  githubUrl: 'https://github.com/ThariduNherath/ServiceBoard',
+  features: [
+    'RESTful API with Express — GET, POST, PATCH, DELETE endpoints',
+    'MongoDB jobRequests collection with Mongoose ODM and email validation',
+    'Category filter dropdown (Plumbing, Electrical, Painting, Joinery)',
+    'Keyword search across title and description via MongoDB text index',
+    'Job detail page with status update (Open → In Progress → Closed)',
+    'Client-side and server-side input validation',
+    'Global error handler with proper HTTP status codes (200, 201, 400, 404, 500)',
+    'Seed script with 5 sample jobs for demo',
+    'Dark theme UI with Syne + DM Sans fonts and amber accent system',
+    'Deployed frontend to Vercel and backend to Railway',
   ],
   status: 'Completed',
 }
