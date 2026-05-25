@@ -92,7 +92,7 @@ const Projects = () => {
       technologies: ['Node.js', 'Express', 'SQLite', 'Prisma', 'Chart.js'],
       category: 'backend',
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/ThariduNherath/Analytics-Dashboard-API',
       features: [
         'RESTful API Endpoints (/api/stats, /api/sales/summary)',
         'User and Sales Analytics',
