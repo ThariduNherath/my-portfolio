@@ -7,7 +7,7 @@ import './Projects.css';
 // Import your project images (adjust paths as needed)
 import shoewebsiteimg from '../../assets/shoe-website.JPG';
 import tastybite from '../../assets/Tasty.JPG';
-import dashboard from '../../assets/dashboard.JPG'
+import dashboard from '../../assets/analytics.png'
 import weather from '../../assets/weather.JPG';
 import flutterdashboard from '../../assets/flutter_dashbaord.png';
 import flutterEcommerceImg from '../../assets/e_commerce_flutter.png';
