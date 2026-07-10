@@ -13,14 +13,49 @@ import flutterdashboard from '../../assets/flutter_dashbaord.png';
 import flutterEcommerceImg from '../../assets/e_commerce_flutter.png';
 import inventorySystemImg from '../../assets/inventory.png';
 import serviceBoardImg from '../../assets/Service Board.png';
+import nexusEventImg from '../../assets/nexus_event.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+
     {
-      id: 1,
+  id: 1,
+  title: 'NEXUS 2025 — Event Platform',
+  description:
+    'Full stack event ticketing & landing platform with 3D visuals, live cart, and MongoDB backed auth',
+  fullDescription:
+    'A cinematic, dark themed event platform built with Next.js 14 and Three.js for an immersive 3D hero background. Features a complete authentication system (email/password + Google OAuth via JWT httpOnly cookies), a Zustand powered shopping cart with atomic MongoDB transactions to prevent ticket overselling, a dynamic countdown timer that auto cycles every 30 days, and a schedule section that generates downloadable per day PDF itineraries using jsPDF. The Express + MongoDB backend handles ticket inventory, order history, and admin editable schedule data, so new event days can be added without touching frontend code.',
+  image: nexusEventImg,
+  technologies: [
+    'Next.js 14',
+    'TypeScript',
+    'Express.js',
+    'MongoDB',
+    'Three.js',
+    'Zustand',
+    'Framer Motion',
+    'jsPDF',
+  ],
+  category: 'fullstack',
+  liveUrl: '#',
+  githubUrl: 'https://github.com/ThariduNherath/nexus-2025',
+  features: [
+    'JWT Auth with Google OAuth (httpOnly cookies)',
+    'Atomic Cart Checkout — MongoDB Transactions',
+    '3D Hero Scene (React Three Fiber)',
+    'Auto Cycling 30-Day Countdown Timer',
+    'Per Day PDF Schedule Export (jsPDF)',
+    'Admin Driven Dynamic Schedule Data',
+    'Order History / My Tickets Dashboard',
+    'Fully Responsive Glassmorphism UI',
+  ],
+  status: 'Live',
+},
+    {
+      id: 2,
       title: 'Shoe Website',
       description: 'Creative full-stack shoe store built with React, Firebase, and EmailJS',
       fullDescription:
@@ -41,7 +76,7 @@ const Projects = () => {
       status: 'Completed',
     },
     {
-      id: 2,
+      id: 3,
       title: 'TastyBites Website',
       description: 'Fast and reliable food delivery with a modern and responsive design',
       fullDescription:
@@ -62,7 +97,7 @@ const Projects = () => {
       status: 'Completed',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Weather Dashboard',
       description: 'Beautiful weather application with forecasting',
       fullDescription:
@@ -83,7 +118,7 @@ const Projects = () => {
       status: 'Completed',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Analytics Dashboard API',
       description: 'Modern backend API with data analytics endpoints',
       fullDescription:
@@ -105,7 +140,7 @@ const Projects = () => {
       status: 'Completed',
     },
      {
-      id: 5,
+      id: 6,
       title: 'Fitness Tracking Dashboard',
       description: 'Modern Flutter UI for activity tracking and analytic',
       fullDescription:
@@ -127,7 +162,7 @@ const Projects = () => {
       status: 'Completed',
     },
     {
-  id: 6,
+  id: 7,
   title: 'Flutter E Commerce Mobile App',
   description: 'Modern Flutter based e-commerce mobile application with clean architecture',
   fullDescription:
