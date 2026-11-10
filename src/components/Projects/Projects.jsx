@@ -14,7 +14,7 @@ import flutterEcommerceImg from '../../assets/e_commerce_flutter.png';
 import inventorySystemImg from '../../assets/inventory.png';
 import serviceBoardImg from '../../assets/Service Board.png';
 import nexusEventImg from '../../assets/nexus_event.png';
-
+import touristPlannerImg from '../../assets/tourist-plan.png';
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
@@ -232,7 +232,34 @@ const Projects = () => {
     'Deployed frontend to Vercel and backend to Railway',
   ],
   status: 'Completed',
+},
+{
+  id: 10, // use the next free id in your list
+  title: 'Local Tourist Day Visit Planner',
+  description: 'Full-stack web app where tourists discover places near Nugawela, Kandy and build a timed one-day plan, while an admin manages the place data',
+  fullDescription:
+    'A full-stack Local Tourist Day-Visit Planner built with Next.js 14 (App Router), TypeScript, Tailwind CSS and Supabase (PostgreSQL + Auth). Tourists can browse, search, sort and filter places within 25 km of Nugawela, view details (hours, entry fee, best time, facilities, tips), explore an interactive Leaflet map, and build a one-day plan with travel-time estimates and opening-hours warnings. The plan is saved in the browser and can be copied or exported as a PDF. An admin dashboard with statistics and a map location picker allows secure add, edit and delete of places. Access control uses Supabase Auth, Row Level Security and Next.js middleware. Designed with StarUML and tested with Jest and 28 manual test cases. Deployed on Vercel.',
+  image: touristPlannerImg, // import your screenshot, e.g. import touristPlannerImg from '../assets/tourist-planner.png'
+  technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL', 'Leaflet', 'Jest'],
+  category: 'fullstack',
+  liveUrl: 'https://YOUR-VERCEL-URL.vercel.app', // replace with your deployed link
+  githubUrl: 'https://github.com/ThariduNherath/tourist-planner',
+  features: [
+    'Browse, search, sort and filter places by category (Religious, Nature, Heritage, Cultural, Sightseeing)',
+    'Place detail page with hours, entry fee, best time, facilities, travel tips and map',
+    'Interactive Leaflet map with OpenStreetMap tiles, marker popups and directions link',
+    'One-day plan builder: reorder stops, set time per stop, auto-calculated arrival times',
+    'Travel-time estimates (distance × 1.4 ÷ adaptive speed) with opening-hours warnings',
+    'Plan saved in localStorage; copy as text or export as a brochure-style PDF',
+    'Admin dashboard with live statistics, category chart and searchable places table',
+    'Add/edit/delete places with validation and a click-on-map location picker',
+    'Supabase Auth login, admins table, Row Level Security and middleware-protected routes',
+    'Jest unit tests plus 28 manual test cases; UML diagrams designed in StarUML',
+  ],
+  status: 'Completed',
 }
+
+
 
   ];
 
